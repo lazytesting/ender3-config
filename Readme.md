@@ -1,4 +1,4 @@
-# Mods and guides
+# Customized Ender3Pro
 
 ## Mods
 Printer is an Ender 3 Pro with the following mods:
