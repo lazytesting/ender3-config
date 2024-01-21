@@ -12,7 +12,6 @@ Printer is an Ender 3 Pro with the following mods:
 - Lack enclosure: https://www.lets-talk-about.tech/2020/02/3d-printing-famous-ikea-lack-enclosure.html
 - Filament roller: https://www.thingiverse.com/thing:3052488
 - Spool holder: https://www.thingiverse.com/thing:3646853
-- Hotend fix: https://www.youtube.com/watch?v=Fb4XMbZ0iA4
 
 ## Guides:
 - Calibrate bed level sensor: https://letsprint3d.net/guide-how-to-calibrate-an-auto-bed-leveling-sensor/
@@ -62,3 +61,17 @@ M140 S0 ;Turn-off bed
 
 M84 X Y E ;Disable all steppers but Z
 ```
+
+
+### Calibration
+1.rotation distance extuder: https://www.klipper3d.org/Rotation_Distance.html
+2.calibrate extruder and bed pid: https://www.klipper3d.org/Config_checks.html#calibrate-pid-settings
+3.Adjust bed screws https://www.klipper3d.org/Manual_Level.html#adjusting-bed-leveling-screws-using-the-bed-probe
+4.Adjust Z offset: https://www.klipper3d.org/Bed_Level.html#the-paper-test
+5.TODO pressure advance
+6.TODO resonance (need hardware)
+
+
+### credits
+- config based on https://gist.github.com/jasonehines/51b3bec00d6efdb23a006afa6969b105#file-printer-conf
+- macros based on https://github.com/dudeofawesome/klipper-config
